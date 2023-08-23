@@ -1,0 +1,18 @@
+#Don't modify it unless you know what you're doing
+
+Author: Mete
+#If you have questions, please join my Discord server: **************
+#Please give my plugin a rating: https://www.spigotmc.org/resources/custom-durability-1-16-1-20-customize-item-durability.111443/
+
+#Plugin hard dependencies: https://www.spigotmc.org/resources/nbt-api.7939/
+
+prefix: "<#fb13b3>C<#fb42a4>u<#fc7095>s<#fc9f87>t<#fdcd78>o<#fdfc69>m<#dce162>D<#bbc55a>u<#99aa53>r<#788e4b>a<#577344>b<#70734e>i<#897458>l<#a17461>i<#ba756b>t<#d37575>y &8►"
+#Here it is written that the prefix of the plugin can support RGB color
+
+NO_PERMISSION: "%prefix% <#d37575>You do not have enough permission to this"
+NO_ITEM: "%prefix% <#d37575>You must hold a tool in your hand"
+NO_DAMAGE_ITEM: "%prefix% <#d37575>Durability cannot be applied to this item."
+REPAIR_DURABILITY_ITEM: "%prefix% <#d37575>The item has been repaired."
+REPAIR_MAXIMUM_DURABILITY_ITEM: "%prefix% <#d37575>the durability of the item is already at maximum."
+APPLIED_DURABILTIY: "%prefix% <#d37575>Durability has been applied to the item you're holding."
+

@@ -1,0 +1,39 @@
+actionbar:
+  enabled: true
+  text: "&fItem Durability: &b{current}&6/&b{maximum} &6{percentage}%"
+item_list_gui:
+  title: "Durability Item in players"
+  rows: 6
+  item:
+    description:
+      - ""
+      - "§6▎ §fPlayer: §b{player}"
+      - "§6▎ §fDurability: §f{current}§6/§f{maximum} &b{percentage}%"
+      - ""
+    repair:
+      enabled: true
+      description:
+        - "§eLeft-click to repair item."
+        - "§eShift + left-click to enchant mending."
+    # this means the editable item on the gui, you can turn off this modification
+    durability:
+      enabled: true
+      description:
+        - "§eRight-click to edit durability of item."
+  fillGui:
+    enabled: true
+    material: GRAY_STAINED_GLASS_PANE
+  slots:
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  next_page_button:
+    material: ARROW
+    name: "Next Page"
+  prev_page_button:
+    material: ARROW
+    name: "Prev Page"

@@ -1,0 +1,9 @@
+name: CustomItemDurability
+version: '${project.version}'
+main: github.metemoii.customitemdurability.CustomItemDurability
+api-version: '1.16'
+depend:
+  - NBTAPI
+commands:
+  customitemdurability:
+    permission: itemdurability.admin
